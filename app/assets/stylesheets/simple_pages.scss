@@ -1,3 +1,33 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+nav {
+  color: white;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+#home {
+	padding-top: 40px;
+	margin: auto;
+}
+
+#home h1 {
+	text-align: center;
+}
+
+.my-cover-image {
+	width: 100%;
+}
+
+footer {
+  padding: 2%;
+  background: black;
+}
+
+.copyright {
+  padding-bottom: 10px;
+  float: left;
+  color: white;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
