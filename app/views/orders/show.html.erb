@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Order:</strong>
+  <%= order.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= order.product.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= order.product.price %>
+</p>
+
+<%= link_to 'Back', orders_path %>
